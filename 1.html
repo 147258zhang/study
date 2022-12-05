@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<<<<<<< HEAD
     <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.2.0/axios.js"></script>
 </head>
 <body>
@@ -17,3 +18,32 @@
     </script>
 </body>
 </html>
+=======
+</head>
+<body>
+    <script>
+        var arr=[1,3,9,5,4,4,4,4,4,4]
+        var h={}
+        arr.filter((value)=>{
+            if(h[value]===undefined){
+                h[value]=1
+            }else{
+                h[value]++
+            }
+        })
+        console.log(h);
+        for(var key in h){
+            // console.log(typeof(h[key]));
+            console.log(h[key]>arr.length/2);
+            if(h[key]>arr.length/2){
+                console.log(key);
+            }
+        }
+        console.log('aaaaa');
+        console.log('aa');
+        console.log('cccc');
+	    console.log('bbbb')
+    </script>
+</body>
+</html>
+>>>>>>> cdf2726eeefdf1c6afdaca14feaac74876fd14de
