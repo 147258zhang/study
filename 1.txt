@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 log-test 1122222
-=======
-log-test 112
->>>>>>> 20c7fa4 (second)
